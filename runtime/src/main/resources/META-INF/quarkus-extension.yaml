@@ -1,0 +1,9 @@
+---
+name: "my-ext"
+metadata:
+  keywords:
+  - "my"
+  categories:
+  - "miscellaneous"
+  guide: "https://quarkus.io/guides/my-ext"
+  status: "stable"
