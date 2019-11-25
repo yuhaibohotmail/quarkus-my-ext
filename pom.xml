@@ -32,6 +32,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- Project -->
+            <dependency>
+                <groupId>me.snowdrop</groupId>
+                <artifactId>quarkus-my-ext</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
