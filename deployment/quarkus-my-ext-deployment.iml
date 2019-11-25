@@ -84,12 +84,10 @@
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-builder:1.0.0.Final" level="project" />
     <orderEntry type="module" module-name="quarkus-my-ext" />
     <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:4.0.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-junit5:1.0.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-test-common:1.0.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp-deployment:1.0.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp:1.0.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.glassfish:jakarta.json:1.1.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter:5.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-junit5-internal:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.shrinkwrap:shrinkwrap-spi:1.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.shrinkwrap:shrinkwrap-impl-base:1.2.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
@@ -97,6 +95,11 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-params:5.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-test-common:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp-deployment:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.glassfish:jakarta.json:1.1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-development-mode:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-undertow-spi:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-servlet:3.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-core:3.0.0.Final" level="project" />

@@ -11,7 +11,7 @@
 
     <artifactId>quarkus-my-ext-deployment</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>My Extension - Deployment</name>
+    <name>Snowdrop - My Extension - Deployment</name>
 
     <dependencies>
         <dependency>

@@ -1,4 +1,4 @@
-package io.quarkus.my.ext.deployment;
+package me.snowdrop.my.ext.deployment;
 
 import io.quarkus.test.QuarkusUnitTest;
 import io.restassured.RestAssured;

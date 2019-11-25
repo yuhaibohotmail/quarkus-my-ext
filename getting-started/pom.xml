@@ -9,29 +9,36 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>quarkus-my-ext</artifactId>
+    <artifactId>quarkus-my-ext-getting-started</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Snowdrop - My Extension - Runtime</name>
+    <name>Snowdrop - My Extension - Getting Started</name>
 
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-core</artifactId>
+            <artifactId>quarkus-resteasy</artifactId>
+        </dependency>
+        <!-- Add my-ext -->
+        <dependency>
+            <groupId>me.snowdrop</groupId>
+            <artifactId>quarkus-my-ext</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- Test -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-junit5</artifactId>
         </dependency>
         <dependency>
-            <groupId>jakarta.servlet</groupId>
-            <artifactId>jakarta.servlet-api</artifactId>
-            <scope>compile</scope>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>io.quarkus</groupId>
-                <artifactId>quarkus-bootstrap-maven-plugin</artifactId>
-                <version>${quarkus.version}</version>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -48,4 +55,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
