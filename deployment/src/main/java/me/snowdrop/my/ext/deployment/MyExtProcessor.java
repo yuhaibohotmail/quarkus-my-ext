@@ -2,7 +2,7 @@ package me.snowdrop.my.ext.deployment;
 
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
-import io.quarkus.my.ext.HelloWorldServlet;
+import me.snowdrop.my.ext.HelloWorldServlet;
 import io.quarkus.undertow.deployment.ServletBuildItem;
 
 class MyExtProcessor {

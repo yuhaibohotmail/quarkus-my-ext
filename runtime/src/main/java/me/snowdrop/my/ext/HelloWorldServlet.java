@@ -1,4 +1,4 @@
-package io.quarkus.my.ext;
+package me.snowdrop.my.ext;
 
 import java.io.IOException;
 
