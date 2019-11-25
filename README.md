@@ -6,12 +6,12 @@ Simple Quarkus extension registering a HelloWorld Servlet
 
 - Compile and install the extension within your local maven repo
 ```bash
-mvn clean package -DskipTests=true
+mvn clean install -DskipTests=true
 ```
 
 - Compile and run the Resteasy application to access the HelloWorld Servlet
 ```bash
-mvn clean package -f application/pom.xml -DskipTests=true
+mvn clean install -f application/pom.xml -DskipTests=true
 mvn quarkus:dev -f application/pom.xml
 [INFO] Scanning for projects...
 [INFO] 
@@ -57,7 +57,7 @@ The definition of the `camel-quarkus` runtime gav for this extensions is : http
 ### All in one
 ```bash
 git clone https://github.com/cmoulliard/quarkus-my-ext.git && cd quarkus-my-ext
-mvn clean package -DskipTests=true
-mvn clean package -f application/pom.xml -DskipTests=true
+mvn clean install -DskipTests=true
+mvn clean install -f application/pom.xml -DskipTests=true
 mvn quarkus:dev -f application/pom.xml -DnoDeps
 ```
