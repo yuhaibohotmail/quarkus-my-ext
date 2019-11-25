@@ -51,3 +51,11 @@ MyExtProcessor.createHelloWorldServlet
 
 Example of a `camel-quarkus` extension which calls the runtime gav : https://github.com/apache/camel-quarkus/blob/master/examples/rest-json/pom.xml#L37
 The definition of the `camel-quarkus` runtime gav for this extensions is : https://github.com/apache/camel-quarkus/blob/master/extensions/platform-http/runtime/pom.xml#L29
+
+### All in one
+```bash
+git clone https://github.com/cmoulliard/quarkus-my-ext.git && cd quarkus-my-ext
+mvn clean package -DskipTests=true
+mvn clean package -f application/pom.xml -DskipTests=true
+mvn quarkus:dev -f application/pom.xml -DnoDeps
+```
