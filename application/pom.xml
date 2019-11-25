@@ -23,17 +23,7 @@
             <groupId>me.snowdrop</groupId>
             <artifactId>quarkus-my-ext</artifactId>
             <version>1.0.0-SNAPSHOT</version>
-            <scope>runtime</scope>
         </dependency>
-        <!-- Workaround to force a build for a multi-maven project -->
-        <!--
-        <dependency>
-            <groupId>me.snowdrop</groupId>
-            <artifactId>quarkus-my-ext-deployment</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        -->
 
         <!-- Test -->
         <dependency>
