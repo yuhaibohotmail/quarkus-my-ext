@@ -36,6 +36,5 @@
     <modules>
         <module>runtime</module>
         <module>deployment</module>
-        <module>application</module>
     </modules>
 </project>

@@ -16,7 +16,7 @@ public class HelloWorldServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.getWriter().print("Hello from my simple Quarkus extension");
+        response.getWriter().print("Hello from Hello World Servlet - Quarkus extension");
     }
 
 }

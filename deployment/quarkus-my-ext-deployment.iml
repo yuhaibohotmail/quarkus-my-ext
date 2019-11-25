@@ -29,6 +29,11 @@
     <orderEntry type="library" name="Maven: org.jboss.slf4j:slf4j-jboss-logging:1.2.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.graalvm.sdk:graal-sdk:19.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.wildfly.common:wildfly-common:1.5.0.Final-format-001" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-arc-deployment:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-arc:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus.arc:arc:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus.arc:arc-processor:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-core-deployment:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.gizmo:gizmo:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-util:7.1" level="project" />
