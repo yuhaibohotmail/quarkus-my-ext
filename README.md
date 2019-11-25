@@ -60,4 +60,9 @@ git clone https://github.com/cmoulliard/quarkus-my-ext.git && cd quarkus-my-ext
 mvn clean install -DskipTests=true
 mvn clean install -f application/pom.xml -DskipTests=true
 mvn quarkus:dev -f application/pom.xml -DnoDeps
+or 
+java -jar application/target/quarkus-my-ext-application-1.0.0-SNAPSHOT-runner.jar 
+2019-11-25 18:16:15,162 INFO  [io.quarkus] (main) quarkus-my-ext-application 1.0.0-SNAPSHOT (running on Quarkus 1.0.0.Final) started in 0.909s. Listening on: http://0.0.0.0:8080
+2019-11-25 18:16:15,185 INFO  [io.quarkus] (main) Profile prod activated. 
+2019-11-25 18:16:15,186 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy]
 ```
