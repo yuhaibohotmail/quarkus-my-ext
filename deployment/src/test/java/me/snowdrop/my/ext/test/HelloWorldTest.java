@@ -10,11 +10,10 @@ import org.junit.jupiter.api.extension.RegisterExtension;
 import static org.hamcrest.Matchers.is;
 
 public class HelloWorldTest {
-
     @RegisterExtension
     static QuarkusUnitTest runner = new QuarkusUnitTest()
             .setArchiveProducer(() -> ShrinkWrap.create(JavaArchive.class)
-                    .addClasses(HelloWorldServlet.class));
+                    .addClasses(HelloWorldTest.class));
 
     @Test
     public void testHelloWorldServlet() {
