@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/helloServlet")
 public class HelloWorldServlet extends HttpServlet {
 
+    public static final String URL_PATTERN = "/helloServlet";
+
     public void init(ServletConfig config) {
         System.out.println("HelloWorldServlet initialized ...");
     }
