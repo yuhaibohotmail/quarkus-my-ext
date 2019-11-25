@@ -55,6 +55,7 @@
                 <version>${quarkus.version}</version>
                 <executions>
                     <execution>
+                        <id>build</id>
                         <goals>
                             <goal>build</goal>
                         </goals>
