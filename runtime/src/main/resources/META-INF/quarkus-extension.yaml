@@ -1,9 +1,9 @@
 ---
-name: "my-ext"
+name: "Quarkus Hello World Servlet"
 metadata:
   keywords:
-  - "my"
+  - "my-ext"
   categories:
   - "miscellaneous"
   guide: "https://quarkus.io/guides/my-ext"
-  status: "stable"
+  status: "preview"
