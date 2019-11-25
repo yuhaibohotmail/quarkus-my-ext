@@ -1,4 +1,4 @@
-package me.snowdrop.my.ext.deployment;
+package me.snowdrop.my.ext.test;
 
 import java.io.IOException;
 

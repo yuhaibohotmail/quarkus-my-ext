@@ -1,4 +1,4 @@
-package me.snowdrop.my.ext.deployment;
+package me.snowdrop.my.ext.test;
 
 import io.quarkus.test.QuarkusUnitTest;
 import io.restassured.RestAssured;
@@ -7,7 +7,7 @@ import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
-import static org.hamcrest.core.Is.is;
+import static org.hamcrest.Matchers.is;
 
 public class HelloWorldTest {
 
@@ -18,7 +18,8 @@ public class HelloWorldTest {
 
     @Test
     public void testHelloWorldServlet() {
-        RestAssured.when().get("/mapped").then()
+        RestAssured.when().get("/")
+                .then()
                 .statusCode(200)
                 .body(is("web xml servlet"));
     }

@@ -89,6 +89,19 @@
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-builder:1.0.0.Final" level="project" />
     <orderEntry type="module" module-name="quarkus-my-ext" />
     <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:4.0.3" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-undertow-spi:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-servlet:3.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-core:3.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-http-core:3.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.metadata:jboss-metadata-web:11.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.metadata:jboss-metadata-common:11.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-junit5-internal:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.2.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.shrinkwrap:shrinkwrap-spi:1.2.6" level="project" />
@@ -105,19 +118,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-jsonp:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.glassfish:jakarta.json:1.1.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-development-mode:1.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-undertow-spi:1.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-servlet:3.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-core:3.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-http-core:3.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.42.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.42.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.42.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.42.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.42.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.42.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.42.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.metadata:jboss-metadata-web:11.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.metadata:jboss-metadata-common:11.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.rest-assured:rest-assured:4.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy:2.5.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-xml:2.5.6" level="project" />
